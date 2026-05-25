@@ -11,7 +11,12 @@ import pystray
 # ==============================================================================
 # 設定項目
 # ==============================================================================
+<<<<<<< HEAD
 CLIENT_ID = "YOUR_DISCORD_APPLICATION_ID_HERE"
+=======
+# Discord Developer Portalで取得した19桁のクライアントIDをここに貼り付けてください
+CLIENT_ID = ""
+>>>>>>> 926f9bbb32724c8783b8d056ec67971ac5520805
 
 # 各種パス（Linux環境用）
 BASE_DIR = os.path.expanduser("~/.local/share/Paradox Interactive/Hearts of Iron IV")
@@ -169,4 +174,10 @@ if __name__ == "__main__":
     threading.Thread(target=discord_connection_loop, daemon=True).start()
     threading.Thread(target=log_watcher_loop, daemon=True).start()
     
+<<<<<<< HEAD
     create_tray_icon()
+=======
+    # 3. メインスレッドでタスクトレイを起動（アプリを常駐・待機させる）
+    print("Running in system tray. Use the tray icon 'Quit App' to exit.")
+    create_tray_icon()
+>>>>>>> 926f9bbb32724c8783b8d056ec67971ac5520805
