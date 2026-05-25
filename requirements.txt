@@ -1,0 +1,4 @@
+pypresence
+uvicorn
+pystray 
+Pillow
