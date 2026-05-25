@@ -11,7 +11,7 @@ import pystray
 # [重要] 設定項目
 # ==============================================================================
 # Discord Developer Portalで取得した19桁のクライアントIDをここに貼り付けてください
-CLIENT_ID = "1508508003308011671"
+CLIENT_ID = ""
 
 # Linux環境における game.log へのパス（環境に合わせて自動でホームディレクトリを展開します）
 LOG_PATH = os.path.expanduser("~/.local/share/Paradox Interactive/Hearts of Iron IV/logs/game.log")
